@@ -1,0 +1,129 @@
+body {
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    background-color:hsl(0, 0%, 82%);
+}
+h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+p {
+    font-size: 14px;
+}
+article {
+    display: inline-block;
+    width: 40%;
+}
+
+.container {
+    border: 2px black solid;
+    border-radius: 5px;
+}
+/*colors section*/
+.colors__heading {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 100px;
+    right: 20px;
+}
+.colors__container {
+    height: 333px;
+    position: relative;
+    bottom: 88px;
+    margin-right: 50px;
+}
+.container__box {
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    color: white;
+    margin: 10px;
+    position: relative;
+    top: 35px;
+}
+.brown {
+    background-color: hsl(28, 23%, 47%);
+}
+.green {
+    background-color: hsl(96, 23%, 47%);
+}
+.red {
+    background-color: hsl(0, 23%, 47%);
+}
+.dark {
+    background-color: hsl(319, 24%, 24%);
+}
+.colors__list {
+    list-style-type: none;
+    text-align: left;
+}
+
+/*typeface section*/
+.fonts {
+    margin-left: 50px;
+}
+.fonts__container {
+    background-color: hsl(319, 24%, 24%);
+    color: white;
+    text-align: left;
+}
+.font__box {
+    margin: 0 20px;
+    padding-left: 40px;
+}
+.ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: hsl(96, 23%, 47%);
+}
+.merriweather {
+    font-family: 'Merriweather', serif;
+    background-color: hsl(0, 23%, 47%);
+}
+.merriweather__700 {
+    font-weight: 700;
+}
+.comic-neue {
+    font-family: 'Comic Neue', serif;
+    background-color: hsl(28, 23%, 47%);
+}
+.comic-neue__700 {
+    font-weight: 700;
+}
+
+/*Text styles section*/
+.styles {
+    position: relative;
+    bottom: 50px;
+}
+
+.styles__box {
+    padding-left: 50px;
+    text-align: left;
+    margin: auto 25px;
+    color: white;
+}
+.styles__container {
+    background-color:hsl(0, 23%, 47%)
+}
+.hone {
+    background-color: hsl(96, 23%, 47%);
+}
+.htwo {
+    background-color:hsl(28, 23%, 47%);
+}
+.pbody {
+    background-color:hsl(319, 24%, 24%);
+}
+
+/*footer*/
+footer {
+    text-align: left;
+}
